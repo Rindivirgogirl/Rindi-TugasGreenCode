@@ -1,0 +1,37 @@
+.kotakBesar{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.kotakBesar .kotakkecil{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.kotakBesar{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.kotakBesar .kotakkecil{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    
+}
+.kotaklebibesar{
+    display: flex;
+    gap: 30px;
+}
