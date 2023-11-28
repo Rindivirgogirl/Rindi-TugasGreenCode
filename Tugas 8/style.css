@@ -1,0 +1,42 @@
+.nav{
+    background-color:aqua;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    color: black;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-color: aqua;
+}
+
+table tr td{
+    color: brown ;
+}
+.tombol{
+    background-color: blue;
+    color: white;
+    
+}
+
+.tombol:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+body{
+    background-color: chartreuse;
+}
