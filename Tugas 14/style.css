@@ -1,0 +1,91 @@
+.kotak-besar{
+    display: flex;
+    width: 100%;
+    height: 1029px;
+    background-color: #FF0000;
+    gap: 166px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak-besar .kotak-kecil{
+    display: flex;
+    background-color: #0000FF;
+    width: 1136px;
+    height: 239px;
+}
+
+.kotak-besar2{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 904px;
+}
+
+.bungkus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 184px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.kotak-kecil-banget{
+    width: 476px;
+    height: 298px;
+    background-color: #008000;
+}
+
+.kotak-panjang{
+    width: 100%;
+    height: 279px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF0000;
+}
+
+.kotak-panjang{
+    color: white;
+    font-size: 30px;
+    font-weight: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-besar{
+    width: 100%;
+    height: 3286px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.bungkusBungkus1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.bulat{
+    background-color:  #D9D9D9;
+    width: 415px;
+    height: 401px;
+    border-radius: 500px;
+   
+}
+
+
+.bulat{
+    background-color:  #D9D9D9;
+    width: 415px;
+    height: 401px;
+    border-radius: 500px;
+}
+
+

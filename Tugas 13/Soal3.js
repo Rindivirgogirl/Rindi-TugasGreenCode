@@ -1,8 +1,9 @@
-function isEven(angka) {
-    if (angka % 2 == 0) {
+function iseven(angka) {
+    if (angka %2 == 0) {
         return true
-    }else {
+    }else{
         return false
     }
+
 }
-console.log(isEven(43))
+console.log(iseven(20))
