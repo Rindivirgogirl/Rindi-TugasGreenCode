@@ -1,0 +1,77 @@
+.kotak-besar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 700px;
+  }
+  .bungkus {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 109px;
+  }
+  .kotak {
+    width: 488px;
+    height: 296px;
+    background-color: #008000;
+    gap: 258px;
+    margin-left: 236px;
+  }
+  .bungkus1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: -500px;
+    gap: 292px;
+  }
+  .bulet {
+    width: 398px;
+    height: 396px;
+    background-color: #000000;
+    gap: 107px;
+    border-radius: 200px;
+    margin-bottom: 50px;
+  }
+  .kotak1 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 1500px;
+    gap: 102px;
+  }
+  .bungkus2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 454px;
+  }
+  .panjang {
+    width: 178px;
+    height: 471px;
+    background-color: #d9d9d9;
+    margin-top: 500px;
+  }
+  .bungkus3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 535px;
+  }
+  .panjang1 {
+    width: 178px;
+    height: 471px;
+    background-color: #d9d9d9;
+    margin-top: 400px;
+  }
+  .bungkus4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 201px;
+  }
+  .panjang2 {
+    width: 1230px;
+    height: 112px;
+    background-color: #d9d9d9;
+    margin-top: 400px;
+  }
