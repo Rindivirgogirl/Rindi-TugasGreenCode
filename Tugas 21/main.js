@@ -1,4 +1,13 @@
-const express = require('express')
+const express = require('express');
+const { GetUser } = require('./api/user/getUser');
+const { PostUser } = require('./api/user/postUser');
+const { DeleteUser } = require('./api/user/deleteUser');
+const { GetProduct } = require('./api/product/getProduct');
+const { PostProduct } = require('./api/product/postProduct');
+const { DeleteProduct } = require('./api/product/deleteProduct');
+const { GetBiodata } = require('./api/biodata/getBiodata');
+const { PostBiodata } = require('./api/biodata/postBiodata');
+const { DeleteBiodata } = require('./api/biodata/deleteBiodata');
 const app = express()
 const port = 3000
 app.use(express.json());
@@ -10,37 +19,22 @@ app.use((req, res, next) => {
     next();
 });
 
-let data =[];
-app.get('/get-user', (req, res) => {
-    res.json({message: "succes get data", data})
-})
+//route api user//
+app.get('/get-user', GetUser)
+app.post('/post-user', PostUser)
+app.delete("/delete-user",DeleteUser)  
 
-app.post('/post-user', function(req, res){
-const {id, nama, number_phone, point} = req.body;
-const dataBaru={
-    "id": id,
-    "nama": nama,
-    "number_phone": number_phone,
-    "point": point
-    }
-    data.push(dataBaru);
-    res.json({message: "success post data"})
+//route api product//
+app.get('/get-product', GetProduct)
+app.post('/post-product', PostProduct)
+app.delete("/delete-product",DeleteProduct) 
 
-})
 
-app.delete("/delete-user", function (req, res){
-    const {id} = req.body;
-    for (let index = 0; index < data.length; index++) {
-        if (id == data[index].id) {
-            data.splice(index,1)
-        }
-    }
-    res.json({
-        message: "data berhasil dihapus"
-    })
-}
+//route api biodata//
+app.get('/get-biodata', GetBiodata)
+app.post('/post-biodata', PostBiodata)
+app.delete("/delete-biodata",DeleteBiodata) 
 
-)  
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

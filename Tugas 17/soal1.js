@@ -1,5 +1,7 @@
-function penjumlahan(angka1, angka2) {
-    return angka1 + angka2
+var angka = 15
+
+if (angka % 2 === 0) {
+    console.log(angka,  "adalah angka genap")
+} else {
+    console.log(angka, "adalah angka ganjil")
 }
-let hasilPenjumlahan = penjumlahan(5, 7)
-console.log(hasilPenjumlahan)
